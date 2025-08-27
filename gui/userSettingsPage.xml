@@ -105,6 +105,13 @@
 				</BinaryOption>
 				<Text profile="fs25_settingsMultiTextOptionTitle" text="$l10n_gui_ad_RecordWhileNotInVehicle"/>
 			</Bitmap>
+<!-- ** changed **-->
+			<Bitmap profile="fs25_multiTextOptionContainer" onCreate="onCreateAutoDriveSettingRow">
+				<BinaryOption profile="fs25_settingsBinaryOption" onClick="onOptionChange" onCreate="onCreateAutoDriveSetting" name="KeepEngineOn" id="KeepEngineOn">
+					<Text profile="fs25_multiTextOptionTooltip" name="ignore" text="$l10n_gui_ad_KeepEngineOn_tooltip"/>
+				</BinaryOption>
+				<Text profile="fs25_settingsMultiTextOptionTitle" text="$l10n_gui_ad_KeepEngineOn"/>
+			</Bitmap>
 		</ScrollingLayout>
 	</GuiElement>
 	<ThreePartBitmap profile="fs25_sliderDockedBg">
