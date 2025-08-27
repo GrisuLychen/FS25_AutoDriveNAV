@@ -356,7 +356,7 @@ local function check()
     end
 
     if g_currentModName then
-        if g_currentModName == "FS25_AutoDrive" and foundMod then
+        if g_currentModName == "FS25_AutoDriveNAV" and foundMod then
             if AutoDrive.currentModName == nil then
                 AutoDrive.currentModName = g_currentModName
 
