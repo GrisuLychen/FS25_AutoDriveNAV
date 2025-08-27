@@ -275,6 +275,8 @@
 		<text name="gui_ad_FoldImplements"								text="Anbaugeräte einklappen" />
 		<text name="gui_ad_FoldImplements_tooltip"						text="AutoDrive wird vorm Losfahren auf das Einklappen von Anbaugeräten warten." />
 		<text name="gui_ad_RecordWhileNotInVehicle"					text="Aufnahme ohne Fahrer" />
+		<text name="gui_ad_KeepEngineOn"				         	text="Verhindert das Ausschalten des Motors" />
+		<text name="gui_ad_KeepEngineO_tooltip"		             	text="Motor bleibt auch bei erreichen des Ziels an und muss manuell abgeschaltet werden" />
 		<text name="gui_ad_RecordWhileNotInVehicle_tooltip"			text="AutoDrive wird die Aufnahme nicht beenden, wenn der Fahrer das Fahrzeug verlässt.  Diese Einstellung wird absichtlich nicht gespeichert!" />
 		<text name="gui_ad_RecordDriveDirectionOffset"					text="Aufzeichnung Versatz Fahrtrichtung" />
 		<text name="gui_ad_RecordDriveDirectionOffset_tooltip"			text="verschiebt die Aufzeichnung vom Fahrzeug nach links (-0.1 .. -6m) oder rechts (0.1 .. 6m). Rückwärts fahren deaktiviert die Aufnahme!" />
